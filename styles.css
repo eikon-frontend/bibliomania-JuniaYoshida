@@ -13,3 +13,69 @@
 }
 
 /* 🦊 Vos styles ici */
+
+
+body {
+  color: #000;
+  font-family: Lato;
+  text-align: center;
+}
+
+img {
+  border-radius: 7px;
+  padding: px;
+  width: 176px;
+  height: 272px;
+  max-width: 100%;
+  display: block;
+  margin: auto
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  display: block;
+  margin-top: 84px;
+  margin-bottom: 34px;
+}
+
+
+img {
+  border-radius: 7px;
+  padding: px;
+  width: 176px;
+  height: 272px;
+  max-width: 100%;
+  display: block;
+  margin: auto
+}
+
+.Resume {}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.commentaires {
+  font-size: 16px;
+  width: 363px;
+  padding-left: 25px;
+  border-radius: 6px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}

@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <h1>Du même bois</h1>
+
+
+  <img src="img/couvertures/du_meme_bois_couverture.png" alt="du_meme_bois_couverture">
+
+
+
+  <div class="Resume">
+    <h2>Marion Fayolle</h2>
+    <p>roman poétique et délicat<br>04.01.2024</p>
+
+
+    <p>« Les enfants, les bébés, ils les appellent les petitous. Et c’est vrai qu’ils sont des petits tout. Qu’ils sont
+      un peu de leur mère, un peu de leur père, un peu des grands-parents, un peu de ceux qui sont morts, il y a si
+      longtemps. Tout ce qu’ils leur ont transmis, caché, inventé. Tout. C’est pas toujours facile d’être un petit tout,
+      d’avoir en soi autant d’histoires, autant de gens, de réussir à les faire taire pour inventer encore une petite
+      chose à soi. »</p>
+  </div>
+
+  <select class="star-rating" aria-label="Note utilisateur">
+    <option value="">Select a rating</option>
+    <option value="5">Excellent</option>
+    <option value="4">Very Good</option>
+    <option value="3">Average</option>
+    <option value="2">Poor</option>
+    <option value="1">Terrible</option>
+  </select>
+
+
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: false
+    });
+  </script>
+
+  <div class="commentaires">
+    <h3>Afficher les commentaires</h3>
+  </div>
+
+  <h3>lu par :</h3>
+  <img src="img/image icon" alt="avatar1">
+  <img src="img/image icon/malecostume-512.png" alt="avatar2">
+  <img src="img/couvertures/du_meme_bois_couverture.png" alt="du_meme_bois_couverture">
+
+  <h3>recommandations</h3>
+
+  <p>controverse</p>
+  <p>Miss Peregrine...</p>
+
+</body>
+
 </html>
